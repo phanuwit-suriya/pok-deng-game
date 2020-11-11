@@ -3,9 +3,9 @@ import { Deck } from '../src/Deck';
 
 describe('Deck', () => {
 
-  it('instantiates a deck of card with 52 cards', () => {
+  it('instantiates a deck of card with 48 cards', () => {
     const deck = new Deck();
-    expect(deck.deck.length).toEqual(52);
+    expect(deck.deck.length).toEqual(48);
   });
 
   it('has a shuffle function', () => {
